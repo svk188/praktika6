@@ -52,7 +52,7 @@ interface Movable{
     public void move(int x,int y,int speedX,int speedY);
 }
 class MovableRectangle extends Rectangle1 implements Movable{
-    int speedX,speedY;
+
     @Override
     public void move(int x,int y,int speedX,int speedY)
     {
